@@ -40,7 +40,7 @@ Partial Class Salary_Calculator
         postTaxSalary = taxablePay - tax - postDe
 
         'display net pay
-        lbNetPay.Text = postTaxSalary
+        lbNetPay.Text = FormatCurrency(postTaxSalary)
 
 
     End Sub
